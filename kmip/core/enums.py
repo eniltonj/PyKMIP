@@ -213,6 +213,8 @@ class CryptographicAlgorithm(enum.Enum):
     HMAC_SHA3_512     = 0x00000026
     SHAKE_128         = 0x00000027
     SHAKE_256         = 0x00000028
+    Ed25519           = 0x00000037
+    Ed448             = 0x00000038
 
 
 class CryptographicUsageMask(enum.Enum):
@@ -754,6 +756,8 @@ class RecommendedCurve(enum.Enum):
     BRAINPOOLP384T1  = 0x00000042
     BRAINPOOLP512R1  = 0x00000043
     BRAINPOOLP512T1  = 0x00000044
+    CURVE25519       = 0x00000045
+    CURVE448         = 0x00000046
 
 
 class ResultReason(enum.Enum):
